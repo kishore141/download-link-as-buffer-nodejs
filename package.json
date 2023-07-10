@@ -1,0 +1,28 @@
+{
+  "name": "download-link-as-buffer-nodejs",
+  "version": "1.0.0",
+  "description": "Download link/url as array-buffer in nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "tslint -p tsconfig.json"
+  },
+  "author": "kishore k j",
+  "keywords": [
+    "nodejs",
+    "download"
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.4.1",
+    "prettier": "^3.0.0",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^5.1.6"
+  },
+  "files": [
+    "dist/**/*"
+  ]
+}
